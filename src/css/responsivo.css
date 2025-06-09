@@ -1,0 +1,103 @@
+@media(max-width:1069px){
+
+body{
+    background: url("../images/bg-mobile.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color:  hsl(257, 40%, 49%);
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.container .logo{
+    display: flex;
+    flex-direction: row;
+  align-items: end;
+  margin: 3rem 1rem;
+  padding: 2rem;
+ 
+}
+.container .logo img{
+    width: 15rem;
+  
+}
+.container .pages{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+
+  
+   
+}
+   .container .pages img{
+    height: 25rem;
+  margin: 0;
+  
+   
+   }
+    .container .descricao{
+    margin-top: 5rem;
+    margin-left: 0rem;
+    padding: 2rem;
+    justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+    
+
+}
+.container .descricao h1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0;
+ 
+   
+    
+}
+.container .descricao p{
+   font-size: 1.6rem;
+   text-align: center;
+   margin-bottom: 5rem;
+
+    
+}
+   
+}
+.container .descricao .btn{
+    font-size: 2rem;
+    border-radius: 6rem;
+    padding: 2rem 7rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+    
+   
+}
+.container .contato{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container .contato .fa-facebook-f , 
+.container .contato .fa-twitter,
+.container .contato .fa-instagram{
+    font-size: 1.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+   display: flex;
+   justify-content: center;
+
+   
+}
